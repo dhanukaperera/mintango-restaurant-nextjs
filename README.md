@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4dc00762-46b0-4ff5-ad89-21073e40b3e0/deploy-status)](https://app.netlify.com/sites/mintango-restaurant-nextjs/deploys)
+
 ## Getting Started
 
 First, run the development server:
