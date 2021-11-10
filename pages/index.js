@@ -1,4 +1,5 @@
 import Head from "next/head";
+import HomeSection from "../sections/Home/HomeSection";
 
 export default function Home() {
 	return (
@@ -10,7 +11,7 @@ export default function Home() {
 			</Head>
 
 			<main>
-				<h1>Next App works!</h1>
+				<HomeSection />
 			</main>
 
 			<footer />

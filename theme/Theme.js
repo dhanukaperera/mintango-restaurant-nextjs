@@ -1,5 +1,7 @@
 export const theme = {
-	colors: {},
+	colors: {
+		primary: "#FFDAC9",
+	},
 
 	font: {
 		fontFamily:
