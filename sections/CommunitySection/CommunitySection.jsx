@@ -21,17 +21,24 @@ const CommunitySection = () => {
 				</TitleBody>
 			</TitleSection>
 
+			{/* 		<div data-aos="fade-up">
+				<h1>Some data</h1>
+				<h1>Some data</h1>
+				<h1>Some data</h1>
+				<h1>Some data</h1>
+				<h1>Some data</h1>
+			</div> */}
+
 			<Wrapper1>
 				<PhotoCard />
 			</Wrapper1>
-
 			<Wrapper2>
 				<PhotoCard />
 			</Wrapper2>
-
 			<Wrapper3>
 				<PhotoCard />
 			</Wrapper3>
+
 			<InfoText>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Duis aute irure.
@@ -56,7 +63,7 @@ const TitleSection = styled.div`
 	/* margin-left: 420px; */
 
 	position: absolute;
-	left: 30%;
+	left: 25%;
 	text-align: left;
 	font: normal normal bold 32px/52px DIN Condensed;
 	letter-spacing: 0px;
@@ -80,7 +87,7 @@ const TitleBody = styled.div`
 const Wrapper1 = styled.div`
 	position: absolute;
 	top: 15%;
-	left: 50%;
+	left: 48%;
 	z-index: 2;
 `;
 

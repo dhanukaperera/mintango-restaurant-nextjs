@@ -14,6 +14,7 @@ export default function Home() {
 			<main>
 				<HomeSection />
 				<CommunitySection />
+				<HomeSection />
 			</main>
 
 			<footer />

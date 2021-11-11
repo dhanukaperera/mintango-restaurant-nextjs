@@ -6,7 +6,12 @@ import PhotoInfo from "./PhotoInfo";
 
 const PhotoCard = () => {
 	return (
-		<PhotoCardStyles>
+		<PhotoCardStyles
+			data-aos="fade-up"
+			data-aos-offset="0"
+			data-aos-duration="1000"
+			data-aos-anchor-placement="center-bottom"
+		>
 			<Photo />
 			<PhotoInfo />
 		</PhotoCardStyles>
