@@ -1,6 +1,7 @@
 import Head from "next/head";
 import CommunitySection from "../sections/CommunitySection/CommunitySection";
 import HomeSection from "../sections/Home/HomeSection";
+import LocationSection from "../sections/LocationSection/LocationSection";
 
 export default function Home() {
 	return (
@@ -14,7 +15,7 @@ export default function Home() {
 			<main>
 				<HomeSection />
 				<CommunitySection />
-				<HomeSection />
+				<LocationSection />
 			</main>
 
 			<footer />
