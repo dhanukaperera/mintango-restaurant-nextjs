@@ -2,15 +2,11 @@ import React from "react";
 import styled from "styled-components";
 import Image from "next/image";
 
-const PhotoInfo = () => {
+const PhotoInfo = ({ title, description, commentCount, likeCount }) => {
 	return (
 		<PhotoInfoStyles>
-			<PostTitle>@buzzfeedfood</PostTitle>
-			<PostBody>
-				It’s taco Tuesday! These tacos from @jesseszewczyk have no added sugars
-				and are SO good 🌮. Find the recipe from the link in our bio! 📸:
-				@taylormillerphoto
-			</PostBody>
+			<PostTitle>{title}</PostTitle>
+			<PostBody>{description}</PostBody>
 			<PostFooter>
 				<>
 					<Image
@@ -22,7 +18,7 @@ const PhotoInfo = () => {
 					/>
 				</>
 
-				<CountText>60</CountText>
+				<CountText>{commentCount} </CountText>
 				<>
 					<Image
 						src="/heart-btn.jpg"
@@ -32,7 +28,7 @@ const PhotoInfo = () => {
 						height="12px"
 					/>
 				</>
-				<CountText>14.7K</CountText>
+				<CountText> {likeCount}</CountText>
 			</PostFooter>
 		</PhotoInfoStyles>
 	);

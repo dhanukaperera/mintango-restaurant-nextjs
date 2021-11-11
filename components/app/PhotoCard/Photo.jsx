@@ -2,17 +2,17 @@ import React from "react";
 import styled from "styled-components";
 import Image from "next/image";
 
-const Photo = ({ imagePath, altText }) => {
+const Photo = ({ image, altText }) => {
 	return (
 		<PhotoContainer>
 			<InstagramPhotoBtn
 				src="/instagram-btn.jpg"
-				alt="me"
+				alt="instagram icon"
 				width="60"
 				height="60"
 			/>
 			<Image
-				src={imagePath ? imagePath : "/picture-1.jpg"}
+				src={image ? image : "/picture-1.jpg"}
 				alt={altText ? altText : "Picture"}
 				width="222"
 				height="222"
