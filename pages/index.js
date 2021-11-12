@@ -1,4 +1,5 @@
 import Head from "next/head";
+import NavBar from "../components/app/NavBar/NavBar";
 import CommunitySection from "../sections/CommunitySection/CommunitySection";
 import HomeSection from "../sections/Home/HomeSection";
 import LocationSection from "../sections/LocationSection/LocationSection";
@@ -13,6 +14,7 @@ export default function Home() {
 			</Head>
 
 			<main>
+				<NavBar />
 				<HomeSection />
 				<CommunitySection />
 				<LocationSection />
