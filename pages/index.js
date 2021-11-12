@@ -3,6 +3,7 @@ import NavBar from "../components/app/NavBar/NavBar";
 import CommunitySection from "../sections/CommunitySection/CommunitySection";
 import HomeSection from "../sections/Home/HomeSection";
 import LocationSection from "../sections/LocationSection/LocationSection";
+import OurMenuSection from "../sections/OurMenuSection/OurMenuSection";
 
 export default function Home() {
 	return (
@@ -18,6 +19,7 @@ export default function Home() {
 				<HomeSection />
 				<CommunitySection />
 				<LocationSection />
+				<OurMenuSection />
 			</main>
 
 			<footer />
